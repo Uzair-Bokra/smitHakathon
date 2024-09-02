@@ -1,0 +1,550 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    width: 100%;
+    height: 100vh;
+}
+
+/* ==========================================================navbar===main1=============================================== */
+.nav {
+    width: 100%;
+    height: 100px;
+    padding: 0px 60px 0px 60px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #dadada;
+}
+
+/* =============================================================LOGO================================================ */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+/* ===========================================================navbar li============================================= */
+ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+ul a li {
+    list-style-type: none;
+    color: black;
+    font-size: 20px;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+ul a .makeAboder {
+    border: 1px solid black;
+    padding: 20px 35px 20px 35px;
+    border-radius: 14px;
+}
+ul a li:hover{
+    color: #B9FF66;
+    transition: all ease 1s;
+}
+/*=================================================main2============================================================== */
+.main2 {
+    width: 100%;
+    margin: 30px 0px;
+    height: calc(100% - 100px);
+    padding: 0px 60px 0px 60px;
+    display: flex;
+}
+
+                                                     /* left side */
+.left {
+    width: 45%;
+    height: 100%;
+}
+.main2 .left h1 {
+    font-family: Space;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 76.56px;
+    text-align: left;
+    padding-top: 15px;
+
+}
+.main2 .left p {
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+.main2 .left button {
+    width:  200px;
+    height:  50px;
+    border-radius: 14px;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+}
+.main2 .left button:hover{
+    background-color:#B9FF66 ;
+    color: black;
+    transition: all ease 1s;
+}
+                                                        /* right side */
+.right {
+    width: 55%;
+    height: 100%;
+    background-image: url(./image/WJpDyl-removebg-preview.png);
+    background-size: cover;
+}
+/* =========================================================main 3=================================================== */
+.main3{
+    width: 100%;
+    height: 60px;
+    margin: 30px 0px;
+    padding: 0px 60px 0px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* =======================================================main 4==================================================== */
+.main4{
+    width: 100%;
+    height: 100px;
+    margin: 30px 0px;
+    padding: 0px 60px 0px 60px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.main4 h2{
+    font-size: 30px;
+    background-color: rgb(185, 255, 102);
+}
+/* ===================================================main5=========================================================== */
+.main5{
+    width: 100%;
+    height: 310px;
+    margin: 30px 0px;
+    padding: 0px 60px 0px 60px;
+    display: flex;
+    gap: 40px;
+}
+                                                          /* left-1 */
+.main5 .left-1{
+    width: 50%;
+    height: 310;
+    background-color:#F3F3F3 ;
+    border: 1px solid black;
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+}
+.container-1{
+    width: 160px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 112px;
+}
+.container-1 .container-1text #makecolor1{
+    background-color: #B9FF66;
+    border-radius: 5px;
+    width: 150px;
+}
+.container-1 .container-1text #makecolor2{
+    background-color: #B9FF66;
+    border-radius: 5px;
+    width: 135px;
+}
+.container-1arrow{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.container-1arrow a{
+    text-decoration: none;
+}
+                                                             /* right-1 */
+.main5 .right-1{
+    width: 50%;
+    height: 310;
+    background-color: #B9FF66;
+    border: 1px solid black;
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+}
+.container-2{
+    width: 160px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 112px;
+}
+.container-2 .container-2text #makecolor3{
+    background-color: white;
+    border-radius: 5px;
+    width: 150px;
+}
+.container-2 .container-2text #makecolor4{
+    background-color: white;
+    border-radius: 5px;
+    width: 135px;
+}
+.container-2arrow{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.container-2arrow a{
+    text-decoration: none;
+}
+/* ============================================================main 6================================================== */
+.main6{
+    width: 100%;
+    height: 100px;
+    margin: 30px 0px;
+    padding: 0px 60px 0px 60px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.main6 h2{
+        font-size: 30px;
+        background-color: rgb(185, 255, 102);
+}
+/* ============================================================main 7=============================================== */
+.main7{
+    width: 100%;
+    height: 931px;
+    margin: 30px 0px;
+    padding: 0px 60px 0px 60px;
+}
+/* box1 */
+.main7 .box1{
+    width: 100%;
+    height: 180px;
+    background-color: #B9FF66;
+    border: 1px solid black;
+    border-radius:20px ;
+}
+.main7 .box1 .up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    margin: 0px 50px;
+    border-bottom: 2px solid black;
+}
+.uptext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.uptext h1{
+    font-size: 50px;
+}
+.uptext h3{
+    font-size: 25px;
+}
+#textsetting{
+    margin: 30px 50px;
+}
+                                                      /* box2 */
+.main7 .box2{
+    width: 100%;
+    height: 130px;
+    background-color: #F3F3F3;
+    border: 1px solid black;
+    border-radius: 45px;
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+.flex2 .box2text{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.box2text h1{
+    font-size: 50px;
+}
+.box2text h3{
+    font-size: 25px;
+}
+
+                                                         /* box3 */
+.main7 .box3{
+    width: 100%;
+    height: 130px;
+    background-color: #F3F3F3;
+    border: 1px solid black;
+    border-radius: 45px;
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+.flex3 .box3text{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.box3text h1{
+    font-size: 50px;
+}
+.box3text h3{
+    font-size: 25px;
+}
+                                                             /* box4 */
+.main7 .box4{
+    width: 100%;
+    height: 130px;
+    background-color: #F3F3F3;
+    border: 1px solid black;
+    border-radius: 45px;
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex4{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+.flex4 .box4text{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.box4text h1{
+    font-size: 50px;
+}
+.box4text h3{
+    font-size: 25px;
+}
+                                                              /* box 5 */
+.main7 .box5{
+    width: 100%;
+    height: 130px;
+    background-color: #F3F3F3;
+    border: 1px solid black;
+    border-radius: 45px;
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex5{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+.flex5 .box5text{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.box5text h1{
+    font-size: 50px;
+}
+.box5text h3{
+    font-size: 25px;
+}
+                                                              /* box 6 */
+.main7 .box6{
+    width: 100%;
+    height: 130px;
+    background-color: #F3F3F3;
+    border: 1px solid black;
+    border-radius: 45px;
+    margin: 20px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex6{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+.flex6 .box6text{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.box6text h1{
+    font-size: 50px;
+}
+.box6text h3{
+    font-size: 25px;
+}
+/* ====================================================main 8================================================= */
+.main8{
+    width: 100%;
+    height: 100px;
+    margin: 30px 0px;
+    padding: 0px 60px 0px 60px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.main8 h1{
+    font-size: 30px;
+    background-color: rgb(185, 255, 102);
+}
+/* ====================================================main 9================================================= */
+.main9{
+    height: 600px;
+    background-color: #F3F3F3;
+    margin: 30px 60px 30px 60px;
+    border-radius: 45px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form{
+    height: 457px;
+    margin-left: 100px;
+}
+#radio1,#radio2{
+    margin-bottom: 30px;
+}
+#one, #two, #three{
+    font-size: 20px;
+    margin: 30px 0px 30px 0px;
+}
+#name, #email, #message{
+    width: 450px;
+    height: 59px;
+    border-radius: 14px;
+    margin-bottom: 30px;
+}
+#formButton{
+    width: 450px;
+    height: 68px;
+    border-radius: 14px;
+    padding: 20px, 35px, 20px, 35px;
+    background-color: black;
+    color: white;
+    margin: 30px 0px 30px 0px;
+}
+.main9image img{
+    width: 300px;
+}
+/* ====================================================================main10============== */
+                                               /* firstRow */
+.main10{
+    width: 100%;
+    height: 500px;
+    margin: 50px 0px 0px 0px;
+    padding: 0px 60px 0px 60px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+     background-color: #191A23;
+     border-radius: 45px 45px 0px 0px;
+}
+.firstRow{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+                                                   /* second row */
+.secondRow{
+    width: 100%;
+    height: calc(100% - 300px);
+    display: flex;
+    color: white;
+}
+.secondRowText{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 0px 0px 50px;
+}
+.secondRowForm{
+    width: 60%;
+    height: 100%;
+    background-color: #292A32;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-right: 50px;
+    border-radius: 14px;
+}
+                                                    /* Third Raw */
+.thirdRaw{
+    width: 100%;
+    height: 150px;
+    padding-top: 60px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.border{
+    height: 100%;
+    width: 100%;
+    border-top: 2px solid white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
