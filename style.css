@@ -571,7 +571,7 @@ ul a li:hover{
 /* Base styles (already given) */
 
 /* ==================================Media Queries for Responsiveness============================== */
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
     .nav {
         flex-direction: column;
         height: auto;
@@ -759,7 +759,7 @@ ul a li:hover{
     .main10 .secondRowForm button {
         width: 100%;
     }
-}
+} */
 
 
 
